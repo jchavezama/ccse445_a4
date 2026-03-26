@@ -1,5 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+
 <!-- here we can define the national park schema-->
 <xs:element name="NationalPark">
     <xs:complexType>
@@ -23,7 +24,7 @@
         <xs:element name="State" type="xs:string"/>
         <xs:element name="Zip" type="xs:string"/>
       </xs:sequence>
-      <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+      <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
     </xs:complexType>
 </xs:element>
 
