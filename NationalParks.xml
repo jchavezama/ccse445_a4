@@ -1,4 +1,19 @@
 <NationalParks>
+<NationalPark id="GRCA" Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="Flagstaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+</NationalPark> 
+
+
   <NationalPark id="ACDA" Rating="4.9">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
@@ -28,7 +43,7 @@
     <Name>Badlands</Name>
     <Phone>605-433-5361</Phone>
     <Phone>605-455-2878</Phone>
-    <Address> 
+    <Address NearestAirport="Rapid City Regional Airport"> 
       <Number>25216</Number>
       <Street>Ben Reifel Road</Street>
       <City>Rapid City</City>
@@ -51,12 +66,12 @@
   </NationalPark>
 
 <NationalPark id="BISC">
-    <Name>Biscanye</Name>
+    <Name>Biscayne</Name>
     <Phone>786-335-3620</Phone>
     <Phone>305-230-1144</Phone>
     <Phone>786-335-3630</Phone>
     <Phone>786-335-3639</Phone>
-    <Address> 
+    <Address NearestAirport="Miami International Airport"> 
       <Number>9700</Number>
       <Street>sw 328th Street</Street>
       <City>Homestead</City>
@@ -96,7 +111,7 @@
     <Name>Gates of the Artic</Name>
     <Phone>907-457-5752</Phone>
     <Phone>907-459-3730</Phone>
-    <Address> 
+    <Address NearestAirport="Bettles"> 
       <Number>4175</Number>
       <Street>Geist Rd</Street>
       <City>Fairbanks</City>
@@ -110,7 +125,7 @@
     <Name>Grand Teton</Name>
     <Phone>307-739-3399</Phone>
     <Phone>307-739-3654</Phone>
-    <Address> 
+    <Address NearestAirport="Jackson Hole Airport"> 
       <Number>103</Number>
       <Street>Headquarters Loop Moose</Street>
       <City>Grand Teton National Park</City>
