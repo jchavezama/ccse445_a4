@@ -1,5 +1,21 @@
 <NationalPark> <!--here we have the wrong root name: covers issue number 1-->
-  <NationalPark id="ACDA" Rating="4.9">
+
+<NationalPark id="GRCA" Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="Flagstaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+</NationalPark> 
+
+  <!--remove the required ID tag from this one: Cover issue number 2-->
+  <NationalPark Rating="4.9">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
     <Address NearestAirport="Hancock County-Bar Harbor Airport">
@@ -11,11 +27,9 @@
     </Address>
   </NationalPark>
 
-<!--remove the required ID tag from this one: Cover issue number 2-->
-<NationalPark Rating="4.6">
+<NationalPark id="SAMOA" Rating="4.6">
     <Name>American Samoa</Name>
-    <Phone>684-633-7085</Phone>
-    <Phone>684-633-7082</Phone>
+    <!--Remove the phone element from this one: cover issue number 3-->
     <Address NearestAirport="Pago Pago International Airport">
       <Number>MHJ Building</Number>
       <Street>American Samoa</Street>
@@ -27,38 +41,40 @@
 
 <NationalPark id="BDLNDS">
     <Name>Badlands</Name>
-    <!--Remove the phone element from this one: cover issue number 3-->
-    <Address> 
+    <Phone>605-433-5361</Phone>
+    <Phone>605-455-2878</Phone>
+    <!--Address is missing the closing tag: covers issue number 4-->
+    <Address NearestAirport="Rapid City Regional Airport"> 
       <Number>25216</Number>
       <Street>Ben Reifel Road</Street>
       <City>Rapid City</City>
       <State>SD</State>
       <Zip>57750</Zip>
-    </Address>
 </NationalPark>
 
+<!--having two name elements in here: covers issue number 5-->
 <NationalPark id="BGBND" Rating="4.8">
+    <Name>Big Bend</Name>
     <Name>Big Bend</Name>
     <Phone>432-477-2251</Phone>
     <Phone>432-477-2291</Phone>
-    <!--Address is missing the closing tag: covers issue number 4-->
     <Address NearestAirport="El Paso International Airport">
       <Number>1</Number>
       <Street>Panther Junction</Street>
       <City>Big Bend National Park</City>
       <State>TX</State>
       <Zip>79834</Zip>
+    </Address>
   </NationalPark>
 
-<!--having two name elements in here: covers issue number 5-->
+<!--from here down we leave them alone since we alrady created our issues-->
 <NationalPark id="BISC">
-    <Name>Biscanye</Name>
-    <Name>2Biscanyes</Name>
+    <Name>Biscayne</Name>
     <Phone>786-335-3620</Phone>
     <Phone>305-230-1144</Phone>
     <Phone>786-335-3630</Phone>
     <Phone>786-335-3639</Phone>
-    <Address> 
+    <Address NearestAirport="Miami International Airport"> 
       <Number>9700</Number>
       <Street>sw 328th Street</Street>
       <City>Homestead</City>
@@ -67,7 +83,7 @@
     </Address>
   </NationalPark>
 
-<!--from here down we leave them alone since we alrady created our issues-->
+
 <NationalPark id="CONG" Rating="4.7">
     <Name>Congaree</Name>
     <Phone>803-776-4396</Phone>
@@ -98,7 +114,7 @@
     <Name>Gates of the Artic</Name>
     <Phone>907-457-5752</Phone>
     <Phone>907-459-3730</Phone>
-    <Address> 
+    <Address NearestAirport="Bettles"> 
       <Number>4175</Number>
       <Street>Geist Rd</Street>
       <City>Fairbanks</City>
@@ -112,7 +128,7 @@
     <Name>Grand Teton</Name>
     <Phone>307-739-3399</Phone>
     <Phone>307-739-3654</Phone>
-    <Address> 
+    <Address NearestAirport="Jackson Hole Airport"> 
       <Number>103</Number>
       <Street>Headquarters Loop Moose</Street>
       <City>Grand Teton National Park</City>
@@ -135,4 +151,4 @@
     </Address>
 </NationalPark>
 
-</NationalPark>
+</NationalParks>
