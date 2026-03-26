@@ -1,4 +1,6 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://jchavezama.github.io/ccse445_a4"
+    xmlns="https://jchavezama.github.io/ccse445_a4"
+    elementFormDefault="qualified">
 
 
 <!-- here we can define the national park schema-->
