@@ -1,0 +1,136 @@
+<NationalParks>
+  <NationalPark id="ACDA" Rating="4.9">
+    <Name>Acadia</Name>
+    <Phone>207-288-3338</Phone>
+    <Address NearestAirport="Hancock County-Bar Harbor Airport">
+      <Number>20</Number>
+      <Street>McFarland Hill Dr</Street>
+      <City>Bar Barbor</City>
+      <State>ME</State>
+      <Zip>04609</Zip>
+    </Address>
+  </NationalPark>
+
+<NationalPark id="SAMOA" Rating="4.6">
+    <Name>American Samoa</Name>
+    <Phone>684-633-7085</Phone>
+    <Phone>684-633-7082</Phone>
+    <Address NearestAirport="Pago Pago International Airport">
+      <Number>MHJ Building</Number>
+      <Street>American Samoa</Street>
+      <City>Pago Pago</City>
+      <State>AS</State>
+      <Zip>96799</Zip>
+    </Address>
+  </NationalPark>
+
+<NationalPark id="BDLNDS">
+    <Name>Badlands</Name>
+    <Phone>605-433-5361</Phone>
+    <Phone>605-455-2878</Phone>
+    <Address> 
+      <Number>25216</Number>
+      <Street>Ben Reifel Road</Street>
+      <City>Rapid City</City>
+      <State>SD</State>
+      <Zip>57750</Zip>
+    </Address>
+</NationalPark>
+
+<NationalPark id="BGBND" Rating="4.8">
+    <Name>Big Bend</Name>
+    <Phone>432-477-2251</Phone>
+    <Phone>432-477-2291</Phone>
+    <Address NearestAirport="El Paso International Airport">
+      <Number>1</Number>
+      <Street>Panther Junction</Street>
+      <City>Big Bend National Park</City>
+      <State>TX</State>
+      <Zip>79834</Zip>
+    </Address>
+  </NationalPark>
+
+<NationalPark id="BISC">
+    <Name>Biscanye</Name>
+    <Phone>786-335-3620</Phone>
+    <Phone>305-230-1144</Phone>
+    <Phone>786-335-3630</Phone>
+    <Phone>786-335-3639</Phone>
+    <Address> 
+      <Number>9700</Number>
+      <Street>sw 328th Street</Street>
+      <City>Homestead</City>
+      <State>FL</State>
+      <Zip>33033</Zip>
+    </Address>
+  </NationalPark>
+
+
+<NationalPark id="CONG" Rating="4.7">
+    <Name>Congaree</Name>
+    <Phone>803-776-4396</Phone>
+    <Phone>803-783-4241</Phone>
+    <Address NearestAirport="Columbia Metropolitan Airport">
+      <Number>100</Number>
+      <Street>National Park Road</Street>
+      <City>Hopkins</City>
+      <State>SC</State>
+      <Zip>29061</Zip>
+    </Address>
+  </NationalPark>
+
+
+<NationalPark id="DTHVLY" Rating="3.7">
+    <Name>Death Valley</Name>
+    <Phone>760-786-3200</Phone>
+    <Address NearestAirport="Harry Reid International Airport">
+      <Number>1</Number>
+      <Street>CA-190</Street>
+      <City>Death Valley</City>
+      <State>CA</State>
+      <Zip>92328</Zip>
+    </Address>
+</NationalPark>
+
+<NationalPark id="GOTA">
+    <Name>Gates of the Artic</Name>
+    <Phone>907-457-5752</Phone>
+    <Phone>907-459-3730</Phone>
+    <Address> 
+      <Number>4175</Number>
+      <Street>Geist Rd</Street>
+      <City>Fairbanks</City>
+      <State>AK</State>
+      <Zip>99709</Zip>
+    </Address>
+  </NationalPark>
+
+
+<NationalPark id="GRNDT">
+    <Name>Grand Teton</Name>
+    <Phone>307-739-3399</Phone>
+    <Phone>307-739-3654</Phone>
+    <Address> 
+      <Number>103</Number>
+      <Street>Headquarters Loop Moose</Street>
+      <City>Grand Teton National Park</City>
+      <State>WY</State>
+      <Zip>83012</Zip>
+    </Address>
+</NationalPark>
+
+
+<NationalPark id="HTSPRNG" Rating="4.7">
+    <Name>Hot Springs</Name>
+    <Phone>501-620-6715</Phone>
+    <Phone>501-609-0134</Phone>
+    <Address NearestAirport="Hot Springs Memorial Field Airport">  
+      <Number>101</Number>
+      <Street>Reserve Street</Street>
+      <City>Hot Springs</City>
+      <State>AR</State>
+      <Zip>71901</Zip>
+    </Address>
+</NationalPark>
+
+</NationalParks>
