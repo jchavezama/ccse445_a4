@@ -1,7 +1,5 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:element name="Phone" type="xs:string"/>
-
 <!-- here we can define the national park schema-->
 <xs:element name="NationalPark">
     <xs:complexType>
